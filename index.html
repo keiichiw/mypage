@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Keiichi WATANABE</title>
     <meta name="google-site-verification" content="fhjfvQs18xdPN-NUFm_1SXyG7j0TxfvQ4uCNT1Tk3Uc" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Keiichi Watanabe</title>
   </head>
   <body>
     <div id="name">Keiichi Watanabe</div>
@@ -15,10 +16,34 @@
     </p>
     <h1>Products</h1>
     <ul>
-      <li><a href="https://github.com/kw-udon/constexpr-8cc"><strong>constexpr-8cc</strong></a>: Compile-time C Compiler
-      </li>
-      <li><a href="https://github.com/kw-udon/ucc"><strong>UCC (Udon C Compiler)</strong></a>: C89 Compiler for Original CPU <a href="https://github.com/nyuichi/gaia3">GAIA</a></li>
-      <li><a href="https://github.com/codelibs/gitbucket-fess-plugin"><strong>gitBucket-fess-plugin</strong></a>: GitBucket Plug-in for Cross-Repository Search</li>
+      <li><a href="https://github.com/kw-udon/constexpr-8cc"><strong>constexpr-8cc</strong></a>: Compile-time C Compiler</li>
+      C compiler implemented as C++14 constant expressions.
+      This project is a port of <a href="https://github.com/rui314/8cc">8cc</a> built on <a href="https://github.com/shinh/elvm">ELVM</a>.
+      constexpr-8cc is a joke compiler and not useful, but it shows how powerful compile-time computations in C++ are!
+
+      <ul>
+        <li>Comments <a href="http://llvmweekly.org/issue/151/">on LLVM Weekly</a> / <a href="https://twitter.com/meetingcpp/status/800348363015061505">by Bjarne</a></li>
+        <li><a href="http://kw-udon.hatenablog.com/entry/2016/12/03/201722">My blog post (Japanese)</a></li>
+      </ul>
+
+      <li><a href="https://github.com/kw-udon/ucc"><strong>UCC</strong></a>: C Compiler written in OCaml</li>
+      Almost C89 compatible compiler for our own CPU architecture <a href="https://github.com/nyuichi/gaia3">GAIA</a>.
+      This can compile <a href="https://github.com/nyuichi/xv6">xv6</a>, a simple Unix-like OS.
+      UCC was created in undergraduate experiments at the University of Tokyo.
+
+      <ul>
+        <li><a href="https://github.com/nyuichi/xv6/blob/master/README.md">Detailed description of our work including UCC</a></li>
+        <li><a href="http://kw-udon.hatenablog.com/entry/2015/03/19/171921">My blog post (Japanese)</a></li>
+      </ul>
+
+      <li><a href="https://github.com/codelibs/gitbucket-fess-plugin"><strong>gitbucket-fess-plugin</strong></a>: GitBucket Plug-in for Cross-Repository Search</li>
+      <a href="https://github.com/gitbucket/gitbucket">GitBucket</a> plug-in that provides multiple-repositories search functionality.
+      This plug-in works with a search server <a href="https://github.com/codelibs/fess">Fess</a>.
+
+      <ul>
+        <li><a href="http://qiita.com/kw_udon/items/06d385b88dafed4bd609">My blog post (Japanese)</a></li>
+      </ul>
+
     </ul>
     <hr>
     <a href="https://github.com/kw-udon">GitHub</a>

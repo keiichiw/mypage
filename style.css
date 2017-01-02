@@ -1,3 +1,9 @@
+body {
+    width: 100%;
+    max-width: 800px;
+    font-family: 'Roboto Slab', serif;
+}
+
 #name {
     font-size: 140%;
     font-weight: bold;
@@ -9,5 +15,5 @@ h1 {
 }
 
 li {
-    margin: 8px;
+    margin: 10px;
 }
