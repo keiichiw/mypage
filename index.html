@@ -1,57 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="google-site-verification" content="fhjfvQs18xdPN-NUFm_1SXyG7j0TxfvQ4uCNT1Tk3Uc" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Keiichi Watanabe</title>
-  </head>
-  <body>
-    <div id="name">Keiichi Watanabe</div>
-    <p>
-      I'm a master's student in computer science.</br>
-      My research interest is on software verification, especially automatic verification of functional programs.</br>
-      For details of my research, please visit <a href="http://www-kb.is.s.u-tokyo.ac.jp/~watanabe/">this page</a>.
-    </p>
-    <h1>Products</h1>
-    <ul>
-      <li><a href="https://github.com/kw-udon/constexpr-8cc"><strong>constexpr-8cc</strong></a>: Compile-time C Compiler</li>
-      C compiler implemented as C++14 constant expressions.
-      This project is a port of <a href="https://github.com/rui314/8cc">8cc</a> built on <a href="https://github.com/shinh/elvm">ELVM</a>.
-      constexpr-8cc is a joke compiler and not useful, but it shows how powerful compile-time computations in C++ are!
+    <meta name="description" content="Keiichi Watanabe">
+    <meta name="google-site-verification" content="fhjfvQs18xdPN-NUFm_1SXyG7j0TxfvQ4uCNT1Tk3Uc" />
 
-      <ul>
-        <li>Comments <a href="http://llvmweekly.org/issue/151/">on LLVM Weekly</a> / <a href="https://twitter.com/meetingcpp/status/800348363015061505">by Bjarne</a></li>
-        <li><a href="http://kw-udon.hatenablog.com/entry/2016/12/03/201722">My blog post (Japanese)</a></li>
-      </ul>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
-      <li><a href="https://github.com/kw-udon/ucc"><strong>UCC</strong></a>: C Compiler written in OCaml</li>
-      Almost C89 compatible compiler for our own CPU architecture <a href="https://github.com/nyuichi/gaia3">GAIA</a>.
-      This can compile <a href="https://github.com/nyuichi/xv6">xv6</a>, a simple Unix-like OS.
-      UCC was created in undergraduate experiments at the University of Tokyo.
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-      <ul>
-        <li><a href="https://github.com/nyuichi/xv6/blob/master/README.md">Detailed description of our work including UCC</a></li>
-        <li><a href="http://kw-udon.hatenablog.com/entry/2015/03/19/171921">My blog post (Japanese)</a></li>
-      </ul>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-      <li><a href="https://github.com/codelibs/gitbucket-fess-plugin"><strong>gitbucket-fess-plugin</strong></a>: GitBucket Plug-in for Cross-Repository Search</li>
-      <a href="https://github.com/gitbucket/gitbucket">GitBucket</a> plug-in that provides multiple-repositories search functionality.
-      This plug-in works with a search server <a href="https://github.com/codelibs/fess">Fess</a>.
+<body data-spy="scroll" data-target="#my-navbar">
+    <nav id="my-navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Keiichi Watanabe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#software">Software</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#publications">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-      <ul>
-        <li><a href="http://qiita.com/kw_udon/items/06d385b88dafed4bd609">My blog post (Japanese)</a></li>
-      </ul>
+    <div class="container">
+        <div data-spy="scroll" data-target="#my-navbar" data-offset="0">
+            <h1 id="about">Keiichi Watanabe
+                <a class="icon-link" href="https://github.com/kw-udon"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a class="icon-link" href="https://twitter.com/kw_udon_"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a class="icon-link" href="http://kw-udon.hatenablog.com"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+            </h1>
+            <p>
+                I'm a master's student in computer science.</br>
+                My research interest is on software verification, especially automatic verification of functional programs.
+            </p>
 
-    </ul>
-    <hr>
-    <a href="https://github.com/kw-udon">GitHub</a>
-    /
-    <a href="http://kw-udon.hatenablog.com/">Blog</a>
-    /
-    <a href="https://twitter.com/kw_udon_">Twitter</a>
-    /
-    udon.watanabe [at] gmail.com
-  </body>
+            <h2 id="software">Software</h2>
+
+            <div>
+
+                <h3><a href="https://github.com/kw-udon/constexpr-8cc"><strong>constexpr-8cc</strong></a>: Compile-time C Compiler</h3>
+                <p>
+                    constexpr-8cc is a C compiler implemented as C++14 constant expressions. </br>
+                    So <strong>you can compile while you compile!</strong> </br>
+                    This is a joke compiler, but shows how powerful compile-time computations in C++ are!
+                </p>
+                <ul>
+                    <li>Comments <a href="http://llvmweekly.org/issue/151/">on LLVM Weekly</a> / <a href="https://twitter.com/meetingcpp/status/800348363015061505">by Bjarne</a></li>
+                    <li><a href="http://kw-udon.hatenablog.com/entry/2016/12/03/201722">コンパイル中にコンパイルする「コンパイル時Cコンパイラ」をつくった話</a></li>
+                </ul>
+
+                <hr>
+
+                <h3><a href="https://github.com/kw-udon/ucc"><strong>UCC</strong></a>: C Compiler written in OCaml</h3>
+                <p>
+                    UCC is an almost C89 compatible compiler written in OCaml. </br>
+                    The target architecture of UCC is <a href="https://github.com/nyuichi/gaia3">GAIA</a>, which was designed in undergraduate experiments at the University of Tokyo in 2014. </br>
+                    By using UCC, we succeeded to compile and run <a href="https://github.com/nyuichi/xv6">xv6</a>, a simple Unix-like OS.
+                </p>
+                <ul>
+                    <li><a href="https://github.com/nyuichi/xv6/blob/master/README.md">Detailed description of our work including UCC</a></li>
+                    <li><a href="http://kw-udon.hatenablog.com/entry/2015/03/19/171921">自作CPU向けCコンパイラをつくってOS動かした話 (CPU実験まとめ)</a></li>
+                </ul>
+
+                <hr>
+
+                <h3><a href="https://github.com/codelibs/gitbucket-fess-plugin"><strong>GitBucket-Fess-Plugin</strong></a>: GitBucket Plug-in for Cross-Repository Search</h3>
+                <p>
+                    This is a <a href="https://github.com/gitbucket/gitbucket">GitBucket</a> plug-in that provides multiple-repositories search. </br>
+                    This plug-in works with a full-text search server <a href="https://github.com/codelibs/fess">Fess</a>.
+                </p>
+                <ul>
+                    <li><a href="http://qiita.com/kw_udon/items/06d385b88dafed4bd609">GitBucketで高速に横断検索するためのプラグイン</a></li>
+                </ul>
+
+            </div>
+            <h2 id="publications">Publications</h2>
+            <div>
+                <ul>
+                    <li>
+                        <strong>Keiichi Watanabe</strong>, Ryosuke Sato, Takeshi Tsukada and Naoki Kobayashi:<br>
+                        <strong>Automatically Disproving Fair Termination of Higher-Order Functional Programs.</strong><br> In <a href="http://conf.researchr.org/home/icfp-2016">the 21st ACM SIGPLAN International Conference on Functional Programming (ICFP 2016)</a>, Nara, Japan, 2016.<br> [
+                        <a href="https://dl.acm.org/citation.cfm?id=2951919">Link</a>]
+                    </li>
+                </ul>
+                <p>
+                    For more details of my academic activities, please visit <a href="http://www-kb.is.s.u-tokyo.ac.jp/~watanabe/">this page</a>.
+                </p>
+            </div>
+
+            <h2 id="contact">Contact</h2>
+            <ul>
+                <li>E-mail: udon.watanabe [at] gmail.com</li>
+                <li>GitHub: <a href="https://github.com/kw-udon">kw-udon</a></li>
+                <li>Twitter: <a href="https://twitter.com/kw_udon_">@kw_udon_</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+
 </html>
