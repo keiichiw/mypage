@@ -1,19 +1,30 @@
 body {
-    width: 100%;
-    max-width: 800px;
+    padding-top: 70px;
+    position: relative;
+}
+
+h2 {
+    padding: 0.25em 0.5em;
+    background: transparent;
+    border-left: solid 5px #a0a0a0;;
+}
+
+p {
+    font-size: 17pt;
     font-family: 'Roboto Slab', serif;
 }
 
-#name {
-    font-size: 140%;
-    font-weight: bold;
-    padding: 2px 2px 2px 2px;
-}
-
-h1 {
-    font-size: 120%;
-}
-
 li {
-    margin: 10px;
+    font-size: 17pt;
+    font-family: 'Roboto Slab', serif;
 }
+
+a:link { color: #000080; }
+a:visited { color: #000080; }
+a:hover { color: #ff0000; }
+a:active { color: #ff8000; }
+
+a.icon-link:link { color: #000080; }
+a.icon-link:visited { color: #000080; }
+a.icon-link:hover { color: #000080; }
+a.icon-link:active { color: #000080; }
