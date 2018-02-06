@@ -1,6 +1,6 @@
 body {
-    padding-top: 70px;
     position: relative;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -11,20 +11,12 @@ h2 {
 
 p {
     font-size: 17pt;
-    font-family: 'Roboto Slab', serif;
 }
 
 li {
     font-size: 17pt;
-    font-family: 'Roboto Slab', serif;
 }
 
-a:link { color: #000080; }
-a:visited { color: #000080; }
-a:hover { color: #ff0000; }
-a:active { color: #ff8000; }
+.sub-material li { font-size: 15pt; }
 
-a.icon-link:link { color: #000080; }
-a.icon-link:visited { color: #000080; }
-a.icon-link:hover { color: #000080; }
-a.icon-link:active { color: #000080; }
+a.icon-link { color: #5b5b5b; }
